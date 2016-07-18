@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>カラム</title>
+<style>
+html { font-size:12px; max-width:960px}
+main, .box { box-sizing:content-box; display:flex; flex-wrap:wrap; width:100%;}
+.contents { width:76%; background:#F0F4CB}
+.side { width:24%; background:#FAE9FB}
+article { width:33.333%}
+article img, .pc_title img { width:100%}
+@media (max-width: 550px) {
+article { width:50%}
+.pc_title { display: none; }
+.sp_title { text-align: center; padding: 10px 0; }}
+@media (min-width: 550px) {
+.sp_title { display: none; }
+.pc_title { display: block; padding: 20px 0; } }
+</style>
+
+</head>
+
+<body>
+	<main>
+		<div class="contents">
+		<div class="sp_title">
+		<img src="images/top_sp/title_new_item.png" alt="NEW ITEMS" srcset="images/top_sp/title_new_item@2x.png 2x" />
+		</div>
+
+		<div class="pc_title">
+		<img src="images/top/title_newitems.png" alt="NEW ITEMS" />
+		</div>
+		<div class="box">
+			<article>
+				<img src="images/top/item_01.jpg" alt=""/>
+				<p class="product_name">商品名が入ります商品名が入ります商品名が入ります</p>
+				<p class="product_price">¥10,000 (tax in)</p></article>
+			<article>
+				<img src="images/top/item_01.jpg" alt=""/>
+				<p class="product_name">商品名が入ります商品名が入ります商品名が入ります</p>
+				<p class="product_price">¥10,000 (tax in)</p></article>
+			<article>
+				<img src="images/top/item_01.jpg" alt=""/>
+				<p class="product_name">商品名が入ります商品名が入ります商品名が入ります</p>
+				<p class="product_price">¥10,000 (tax in)</p></article>
+			<article>
+				<img src="images/top/item_01.jpg" alt=""/>
+				<p class="product_name">商品名が入ります商品名が入ります商品名が入ります</p>
+				<p class="product_price">¥10,000 (tax in)</p></article>
+			<article>
+				<img src="images/top/item_01.jpg" alt=""/>
+				<p class="product_name">商品名が入ります商品名が入ります商品名が入ります</p>
+				<p class="product_price">¥10,000 (tax in)</p></article>
+			<article>
+				<img src="images/top/item_01.jpg" alt=""/>
+				<p class="product_name">商品名が入ります商品名が入ります商品名が入ります</p>
+				<p class="product_price">¥10,000 (tax in)</p></article>
+		</div><!--/.box-->
+		</div><!--/.contents-->
+		<div class="side">サイドメニュー
+		</div><!--/.side-->
+	</main>
+</body>
+</html>
